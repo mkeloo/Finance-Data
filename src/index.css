@@ -6,20 +6,28 @@ body {
   background-color: #000300;
 }
 
+@layer base {
+  button {
+    @apply bg-gradient-to-tr from-[var(--primary-purple)] to-[var(--primary-blue)] py-3 px-7 rounded-3xl duration-300 hover:scale-110 text-xl hover:bg-gradient-to-r hover:from-green-300 hover:to-green-500 text-white font-bold hover:ring-2 hover:ring-offset-2 hover:ring-offset-green-800 hover:ring-green-700;
+  }
+}
+
 /* Underline Animation Styles */
+/* link link-underline link-underline-black */
+
 .link-underline {
   border-bottom-width: 0;
   background-image: linear-gradient(transparent, transparent),
     linear-gradient(#fff, #fff);
   background-size: 0 3px;
   background-position: 0 100%;
-  background-repeat: no -repeat;
+  background-repeat: no-repeat;
   transition: background-size 0.5s ease-in-out;
 }
 
 .link-underline-black {
   background-image: linear-gradient(transparent, transparent),
-    linear-gradient(rgb(5, 185, 251), rgb(0, 208, 255));
+    linear-gradient(rgb(26, 186, 2), rgb(3, 203, 90));
 }
 
 .link-underline:hover {
