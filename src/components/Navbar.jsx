@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 
 const Navbar = () => {
-  const [nav, setNav] = useState(false);
+  const [nav, setNav] = useState(true);
 
   const toggleNav = () => {
     setNav(!nav);
@@ -65,6 +65,13 @@ const Navbar = () => {
           <li className="p-4">
             <span className="hover:text-[#00df9a] duration-300">Contact</span>
           </li>
+          <h2 className="m-10 flex items-center justify-center ">
+            Made by{' '}
+            <span className="m-4 link link-underline link-underline-black">
+              {' '}
+              Moksh Keloo
+            </span>
+          </h2>
         </ul>
       </div>
     </div>

@@ -25,7 +25,7 @@ const Hero = () => {
             loop
           />
         </div>
-        <p className="md:text-2xl text-xl font-bold text-gray-300 mt-5 hover:text-[#00df9a]">
+        <p className="md:text-2xl text-xl font-bold text-gray-300 mt-5 hover:text-[#00df9a] md:m-4">
           Monitor your data analytics to increase revenue for BTB, BTC, & SASS
           platforms.
         </p>

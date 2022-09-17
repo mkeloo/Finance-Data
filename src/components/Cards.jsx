@@ -41,10 +41,10 @@ const Cards = () => {
           ({ id, img, title, price, feature1, feature2, feature3 }) => (
             <div
               key={id}
-              className="w-full shadow-2xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300 hover:ring-green-600"
+              className="w-full shadow-2xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300 mb-20"
             >
               <img
-                className="w-20 mx-auto mt-[-3rem] bg-white "
+                className="w-20 mx-auto mt-[-3rem] bg-transparent"
                 src={img}
                 alt="/"
               />
